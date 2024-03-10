@@ -12,7 +12,7 @@ class LoginSerializer(serializers.ModelSerializer):
         fields=['email','password']
 
     def validate(self, data):
-        print("Anbu")
+        print("Surendar")
         email = data.get("email")
         password = data.get("password")
         try:
